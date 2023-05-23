@@ -1,0 +1,13 @@
+
+Source
+      -Extracting user's information from the Resume, I used PyResparser
+      -Extracting Resume PDF into Text, I used ResumeParser
+
+Usage
+Run following command on CMD in working directory.
+		pip install -r requirements.txt
+main.py is the main Python file of Streamlit Web-Application.
+apikey.py is the Python file that where you input your openaikey.
+To run the application, write following command in CMD. or use any IDE.
+		streamlit run main.py
+It only accepts pdf files while uploading your resume.
